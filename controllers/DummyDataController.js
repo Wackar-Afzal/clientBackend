@@ -11,9 +11,10 @@ const dataPrepration = require('../middleWare/DataPrepration')
 
 // ==================Get API======================
 const getUserData = asyncHander( async(req,res)=>{
-    console.log('api hit hoi')
-        const data=await DummyDataModel.find()
-        res.status(200).send(data)
+    // console.log('api hit hoi')
+    //     const data=await DummyDataModel.find()
+    //     res.status(200).send(data)
+    res.send('bund marao')
     
 })
 
