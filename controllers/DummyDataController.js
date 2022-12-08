@@ -1,9 +1,7 @@
 const asyncHander = require('express-async-handler')
-
-const DummyDataModel = require('../models/DummyDataModel')
-
-const Dummy_data = require("../data")
-const dataPrepration = require('../middleWare/DataPrepration')
+// const DummyDataModel = require('../models/DummyDataModel')
+// const Dummy_data = require("../data")
+// const dataPrepration = require('../middleWare/DataPrepration')
 
 
 
