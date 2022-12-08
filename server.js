@@ -7,6 +7,7 @@ const port = process.env.PORT || 8000
 // const GaolsRouter = require('./routes/GoalsRoutes')
 const {errorHandler} = require('./middleWare/ErrorMiddleWare')
 const connectDB = require('./DB/DB')
+const DummyDataModel = require('./models/DummyDataModel')
 
 
 
