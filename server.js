@@ -18,8 +18,9 @@ app.use(express.urlencoded({extended:false}))
 app.use(cors())
 
 app.get('/api/data', async(req,res)=>{
-    const data=await DummyDataModel.find()
-    res.status(200).json(data)
+    // const data=await DummyDataModel.find()
+    // res.status(200).json(data)
+    res.send("api data")
 
 })
 app.get('/', (req,res)=>res.send('hellooooo'))
