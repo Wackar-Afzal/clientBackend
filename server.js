@@ -1,9 +1,9 @@
 const express = require('express')
 const cors = require('cors')
-// const path = require('path')
-// const color = require('colors')
-// const dotenv = require('dotenv').config()
-const port = process.env.PORT 
+const path = require('path')
+const color = require('colors')
+const dotenv = require('dotenv').config()
+const port = process.env.PORT || 8000
 // const GaolsRouter = require('./routes/GoalsRoutes')
 const {errorHandler} = require('./middleWare/ErrorMiddleWare')
 const connectDB = require('./DB/DB')
