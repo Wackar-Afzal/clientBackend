@@ -16,10 +16,10 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use(cors())
 
-// app.get('/api/data', async(req,res)=>{
-//     res.send('bund marao')
+app.get('/api/data', async(req,res)=>{
+    res.send('bund marao')
 
-// })
+})
 app.get('/', (req,res)=>res.send('hellooooo'))
 
 
