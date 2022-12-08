@@ -19,7 +19,7 @@ app.use(cors())
 
 app.get('/api/data', async(req,res)=>{
     const data=await DummyDataModel.find()
-    res.status(200).send(data)
+    res.status(200).json(data)
 
 })
 app.get('/', (req,res)=>res.send('hellooooo'))
