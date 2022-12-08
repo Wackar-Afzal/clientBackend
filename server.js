@@ -19,6 +19,7 @@ app.use(cors())
 
 //routes
 app.use('/api/data', GaolsRouter)
+app.use('/', (req,res)=>res.send('hellooooo'))
 
 //serve Frontend
 
